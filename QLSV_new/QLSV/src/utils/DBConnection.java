@@ -19,12 +19,11 @@ public class DBConnection {
     private Connection connection = null;
     private PreparedStatement preparedStatement = null;
     private ResultSet resultSet = null;
-
-    /**
-     * Link của db.
-     * Thay 3306 bằng port của db (thường mặc định là 3306)
-     * Thay qlhp bằng tên của db
-     */
+    /*   /**
+    * Link của db.
+    * Thay 3306 bằng port của db (thường mặc định là 3306)
+    * Thay qlhp bằng tên của db
+    */
     private static final String DB_URL = "jdbc:mysql://localhost:3306/qlhp";
     
     // tên đăng nhập csdl
@@ -49,7 +48,7 @@ public class DBConnection {
         connection = DBConnection.getConnection();
     }
 
-    // Đóng kết nối đến cơ sở dữ liệu cũng như các thành phần liên quan. 
+// Đóng kết nối đến cơ sở dữ liệu cũng như các thành phần liên quan. 
     public void close() {
         try {
             if (resultSet != null) {

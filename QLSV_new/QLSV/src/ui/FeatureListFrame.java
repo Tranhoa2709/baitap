@@ -54,14 +54,15 @@ public class FeatureListFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setFont(new java.awt.Font("Trajan Pro", 3, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 51, 255));
+        jLabel1.setFont(new java.awt.Font("Trajan Pro", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 153, 0));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("DANH SÁCH TÍNH NĂNG");
         jLabel1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
-        openSinhVienFrame.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        openSinhVienFrame.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         openSinhVienFrame.setForeground(new java.awt.Color(0, 0, 153));
+        openSinhVienFrame.setIcon(new javax.swing.ImageIcon("C:\\Users\\iphon\\OneDrive\\Desktop\\QLSV_new\\QLSV_new\\qlsv   v.PNG")); // NOI18N
         openSinhVienFrame.setText("Quản lí sinh viên");
         openSinhVienFrame.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         openSinhVienFrame.addActionListener(new java.awt.event.ActionListener() {
@@ -70,8 +71,9 @@ public class FeatureListFrame extends javax.swing.JFrame {
             }
         });
 
-        openPhieuThuFrame.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        openPhieuThuFrame.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         openPhieuThuFrame.setForeground(new java.awt.Color(0, 0, 153));
+        openPhieuThuFrame.setIcon(new javax.swing.ImageIcon("C:\\Users\\iphon\\OneDrive\\Desktop\\QLSV_new\\QLSV_new\\monny.png")); // NOI18N
         openPhieuThuFrame.setText("Quản lí thu học phí");
         openPhieuThuFrame.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         openPhieuThuFrame.addActionListener(new java.awt.event.ActionListener() {
@@ -80,8 +82,9 @@ public class FeatureListFrame extends javax.swing.JFrame {
             }
         });
 
-        openPhieuNoFrame.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        openPhieuNoFrame.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         openPhieuNoFrame.setForeground(new java.awt.Color(0, 0, 153));
+        openPhieuNoFrame.setIcon(new javax.swing.ImageIcon("C:\\Users\\iphon\\OneDrive\\Desktop\\QLSV_new\\QLSV_new\\monny.png")); // NOI18N
         openPhieuNoFrame.setText("Quản lí nợ học phí");
         openPhieuNoFrame.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         openPhieuNoFrame.addActionListener(new java.awt.event.ActionListener() {
@@ -90,8 +93,9 @@ public class FeatureListFrame extends javax.swing.JFrame {
             }
         });
 
-        openMucHocPhiFrame.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        openMucHocPhiFrame.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         openMucHocPhiFrame.setForeground(new java.awt.Color(0, 0, 153));
+        openMucHocPhiFrame.setIcon(new javax.swing.ImageIcon("C:\\Users\\iphon\\OneDrive\\Desktop\\QLSV_new\\QLSV_new\\mức hp.png")); // NOI18N
         openMucHocPhiFrame.setText("Quản lí mức học phí");
         openMucHocPhiFrame.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         openMucHocPhiFrame.addActionListener(new java.awt.event.ActionListener() {
@@ -100,8 +104,9 @@ public class FeatureListFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 0, 153));
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\iphon\\OneDrive\\Desktop\\QLSV_new\\QLSV_new\\kisspng-computer-icons-symbol-clip-art-free-exit-icon-png-5ab071c40df213.0134616015215129000571.png")); // NOI18N
         jButton1.setText("Thoát ứng dụng");
         jButton1.setAutoscrolls(true);
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -111,8 +116,9 @@ public class FeatureListFrame extends javax.swing.JFrame {
             }
         });
 
-        Thongtin.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        Thongtin.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         Thongtin.setForeground(new java.awt.Color(0, 0, 153));
+        Thongtin.setIcon(new javax.swing.ImageIcon("C:\\Users\\iphon\\OneDrive\\Desktop\\QLSV_new\\QLSV_new\\thongtin.png")); // NOI18N
         Thongtin.setText("Thông tin ứng dụng");
         Thongtin.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         Thongtin.addActionListener(new java.awt.event.ActionListener() {
@@ -127,47 +133,42 @@ public class FeatureListFrame extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jLabel3)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(56, 56, 56)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(openPhieuThuFrame, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(openSinhVienFrame, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(openPhieuNoFrame, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(openMucHocPhiFrame, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 263, Short.MAX_VALUE)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(Thongtin, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(127, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 119, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Thongtin, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(openMucHocPhiFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(openPhieuNoFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(openPhieuThuFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(openSinhVienFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 263, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(122, 122, 122))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2)
                     .addComponent(jLabel3))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(23, 23, 23)
                 .addComponent(openSinhVienFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
                 .addComponent(openPhieuThuFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 24, Short.MAX_VALUE)
+                .addGap(23, 23, 23)
                 .addComponent(openPhieuNoFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(24, 24, 24)
                 .addComponent(openMucHocPhiFrame, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(Thongtin, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(24, 24, 24)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(35, 35, 35))
+                .addContainerGap())
         );
 
         pack();
